@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-noir-gold">
+    <title>화곡 셔츠룸 | 왜 마포의 평범한 카페는 죽어야 하는가</title>
+    <meta name="description" content="마포의 어둠 속에서 빛나는 화곡 셔츠룸. 평범함을 거부하는 당신을 위한 힙플레이스 카페. 시니컬한 매력과 편집적 사치로 채워진 무드를 지금 확인하세요.">
+    <meta name="keywords" content="화곡 셔츠룸, 마포 힙플레이스, 마포 카페, 화곡동 데이트, 마포 프라이빗 라운지, 셔츠룸 추천, 마포 밤문화">
+    <link rel="canonical" href="https://sf-t3-1779642675702-008.pages.dev">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="화곡 셔츠룸: 지루한 일상을 찢는 힙플레이스">
+    <meta property="og:description" content="누가 "편안함"을 원한다고? 우리는 "태도"를 판다. 화곡 셔츠룸의 편집적 시선.">
+    <style>
+        /* 
+         * [SYSTEM: KR-NOIR-GOLD / EDITORIAL-APPLE]
+         * 유지 및 재사용: CSS 변수, 레이아웃, 타이포그래피 스타일
+         */
+        :root {
+            --c-bg: #050505;
+            --c-text: #f0f0f0;
+            --c-gold: #D4AF37;
+            --c-gold-dim: #8a7018;
+            --c-line: rgba(255, 255, 255, 0.1);
+            --font-main: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+            --font-serif: 'Times New Roman', serif;
+            --space-lg: 4rem;
+            --space-md: 2rem;
+            --space-sm: 1rem;
+        }
+        
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            background-color: var(--c-bg);
+            color: var(--c-text);
+            font-family: var(--font-main);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a { text-decoration: none; color: inherit; transition: 0.3s; }
+        ul { list-style: none; }
+
+        /* Layout Structure */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--space-md);
+        }
+
+        /* Nav */
+        .site-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--space-md) 0;
+            border-bottom: 1px solid var(--c-line);
+        }
+        .logo {
+            font-family: var(--font-serif);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--c-gold);
+            letter-spacing: -0.05em;
+        }
+        .nav-links { display: flex; gap: var(--space-md); }
+        .nav-links a { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; }
+        .nav-links a:hover { color: var(--c-gold); }
+
+        /* Hero Section */
+        .hero-section {
+            padding: var(--space-lg) 0;
+            text-align: center;
+            border-bottom: 1px solid var(--c-line);
+        }
+        .hero-title {
+            font-size: 3rem;
+            font-weight: 900;
+            margin-bottom: var(--space-sm);
+            line-height: 1.1;
+        }
+        .hero-subtitle {
+            font-size: 1.2rem;
+            color: var(--c-gold);
+            font-family: var(--font-serif);
+            font-style: italic;
+        }
+
+        /* Content Grid */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: var(--space-lg);
+            padding: var(--space-lg) 0;
+        }
+
+        /* Article Styling */
+        .article-body {
+            font-size: 1.1rem;
+            color: #ccc;
+        }
+        .article-body h2 {
+            font-size: 1.8rem;
+            margin: var(--space-lg) 0 var(--space-md);
+            color: var(--c-text);
+            border-left: 4px solid var(--c-gold);
+            padding-left: var(--space-md);
+        }
+        .article-body p {
+            margin-bottom: var(--space-md);
+            text-align: justify;
+        }
+        .article-body strong {
+            color: var(--c-gold);
+            font-weight: 700;
+        }
+        .highlight-box {
+            background: rgba(212, 175, 55, 0.05);
+            border: 1px solid var(--c-gold-dim);
+            padding: var(--space-md);
+            margin: var(--space-md) 0;
+            font-family: var(--font-serif);
+        }
+
+        /* Sidebar */
+        .sidebar-widget {
+            margin-bottom: var(--space-lg);
+            border-top: 1px solid var(--c-line);
+            padding-top: var(--space-md);
+        }
+        .widget-title {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            color: var(--c-gold);
+            margin-bottom: var(--space-sm);
+            letter-spacing: 0.1em;
+        }
+        .tag-cloud { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+        .tag {
+            border: 1px solid var(--c-line);
+            padding: 0.3rem 0.8rem;
+            font-size: 0.8rem;
+            border-radius: 50px;
+        }
+        .tag:hover { border-color: var(--c-gold); color: var(--c-gold); }
+
+        /* FAQ Section */
+        .faq-section {
+            margin-top: var(--space-lg);
+            border-top: 1px solid var(--c-line);
+            padding-top: var(--space-lg);
+        }
+        .faq-item {
+            margin-bottom: var(--space-md);
+        }
+        .faq-q {
+            font-weight: 700;
+            color: var(--c-gold);
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+        .faq-a {
+            font-size: 0.95rem;
+            color: #999;
+        }
+
+        /* Footer */
+        .site-footer {
+            border-top: 1px solid var(--c-line);
+            padding: var(--space-lg) 0;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: var(--space-lg);
+        }
+
+        @media (max-width: 768px) {
+            .content-grid { grid-template-columns: 1fr; }
+            .hero-title { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="container">
+        <nav class="site-nav">
+            <a href="#" class="logo">SHIRTROOM.</a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#" style="color:var(--c-gold)">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Header -->
+    <section class="hero-section">
+        <div class="container">
+            <h1 class="hero-title">왜 마포의 평범한 카페는<br>죽어야 하는가</h1>
+            <p class="hero-subtitle">Editorial: The Death of Comfort & The Birth of Attitude</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div class="content-grid">
+            
+            <!-- Article Column -->
+            <article class="article-body">
+                <p>솔직해지자. 당신은 또 다른 "인스타 감성" 카페를 원하지 않는다. 따뜻한 우드 톤, 향긋한 시나몬 향, 그리고 배경음악으로 흐르는 어쿠스틱 기타 소리. 지루하지 않은가? 마포의 거리에는 그런 곳이 이미 넘쳐난다. 우리는 그 반대를 제안한다.</p>
+
+                <h2>1. 편안함은 적이다</h2>
+                <p><strong>화곡 셔츠룸</strong>은 당신을 편안하게 만들 생각이 없다.这里的 공간은 날카롭다. 검은색과 금색이 충돌하는 대비, 거울 속에 비친 당신의 모습을 냉정하게 비추는 조명. 이곳은 당신이 하루 종일 노트북을 켜두고 멍하니 있을 곳이 아니다. 이곳은 당신의 태도를 확인하는 거울이다.</p>
+                <p>우리는 '힙플레이스'라는 단어를 남용하는 세상을 경멸한다. 하지만 역설적으로, 우리는 그 기준을 다시 쓴다. 힙하다는 것은 따르는 것이 아니라, 기존 질서를 거부하는 것이다. 마포의 어둠 속에서 빛나는 우리의 공간은 그 거부권의 상징이다.</p>
+
+                <div class="highlight-box">
+                    "우리는 커피를 팔지 않습니다. 우리는 당신의 밤을 편집합니다."
+                </div>
+
+                <h2>2. 셔츠룸: 프라이버시의 새로운 정의</h2>
+                <p>오픈된 공간에서의 소란스러운 대화는 이제 구식이다. 진정한 사치는 '보이지 않음'에 있다. 화곡 셔츠룸의 프라이빗 라운지는 당신의 대화를 보호하는 방음벽이자, 당신만의 무대이다. 누구의 눈치도 보지 않고, 오직 당신과 당신의 일행, 그리고 선택한 음악만이 존재하는 공간.</p>
+                <p>마포 힙플레이스를 찾는다면, 단순히 사진을 찍으러 오는 것이 아니라 무언가를 '경험'하러 오라. 우리의 시니컬한 미학이 당신의 평범한 일상을 어떻게 찢어놓는지 확인해 보길 바란다.</p>
+
+                <h2>3. 결론: 당신은 준비되었는가?</h2>
+                <p>평범함을 거부하는 당신을 위한 힙플레이스 카페. 화곡 셔츠룸은 문을 두드리는 모든 이를 환영하지 않는다. 우리의 무드를 이해할 수 있는, 시니컬한 매력과 편집적 사치를 즐길 줄 아는 소수에게만 이 공간은 의미가 있다.</p>
+                <p>지금, 마포의 밤이 당신을 부르고 있다. 평범한 선택을 하지 마라.</p>
+            </article>
+
+            <!-- Sidebar -->
+            <aside>
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Categories</h3>
+                    <ul style="font-size: 0.9rem; color: #999;">
+                        <li style="margin-bottom: 0.5rem;"><a href="#">Editorial</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#">Night Culture</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#">Mapo Guide</a></li>
+                        <li><a href="#">Private Lounge</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Tags</h3>
+                    <div class="tag-cloud">
+                        <a href="#" class="tag">#화곡셔츠룸</a>
+                        <a href="#" class="tag">#마포힙플레이스</a>
+                        <a href="#" class="tag">#마포카페</a>
+                        <a href="#" class="tag">#프라이빗라운지</a>
+                        <a href="#" class="tag">#마포데이트</a>
+                        <a href="#" class="tag">#시니컬무드</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Related Info</h3>
+                    <p style="font-size: 0.85rem; color: #666; margin-bottom: 1rem;">
+                        위치: 서울 마포구 화곡동<br>
+                        운영: PM 06:00 - AM 04:00<br>
+                        Reserve Only.
+                    </p>
+                </div>
+            </aside>
+        </div>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <h2 style="font-size: 1.5rem; margin-bottom: 2rem; color: var(--c-text);">Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <span class="faq-q">Q. 예약 없이 방문해도 되나요?</span>
+                <p class="faq-a">A. 추천하지 않습니다. 화곡 셔츠룸은 프라이빗 라운지 운영을 원칙으로 하며, 혼잡한 시간대에는 예약 우선순위가 적용됩니다. 완벽한 경험을 원한다면 사전 예약을 권장합니다.</p>
+            </div>
+
+            <div class="faq-item">
+                <span class="faq-q">Q. 드레스 코드가 있나요?</span>
+                <p class="faq-a">A. 엄격한 규정은 없으나, '편집적 사치'라는 컨셉에 어울리는 세련된 복장을 권장합니다. 스포츠 웨어나 지나치게 캐주얼한 복장은 거절될 수 있습니다.</p>
+            </div>
+
+            <div class="faq-item">
+                <span class="faq-q">Q. 파티룸 대관도 가능한가요?</span>
+                <p class="faq-a">A. 네, 생일 파티나 소모임 등 프라이빗한 모임을 위한 대관 서비스가 가능합니다. 상세 내용은 문의를 통해 확인하실 수 있습니다.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2024 SHIRTROOM MAPA. All Rights Reserved.</p>
+            <p style="margin-top: 0.5rem; opacity: 0.5;">Designed with Editorial Luxury System.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

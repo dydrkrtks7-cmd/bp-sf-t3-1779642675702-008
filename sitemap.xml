@@ -2,25 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-008/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-008/about.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-008/blog.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-008/posts/checklist-001-8z9sz1.html</loc>
     <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-008/posts/guide-001-1ci45fn.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -49,6 +55,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-008/posts/qa-002-ujixxb.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-008/posts/t3link-002-orizvz.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -56,7 +68,7 @@
   </url>
   <url>
     <loc>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-008/feed.xml</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
